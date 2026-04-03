@@ -22,9 +22,9 @@ const products = [
 ];
 
 export const metadata = {
-  title: "Products",
+  title: "Products | Stair Treads, Stair Nosings, Vent Covers, and Matching Flooring Accessories",
   description:
-    "Explore Custom Stair House products including stair treads, stair nosings, vent covers, and matching wood flooring accessories.",
+    "Explore Custom Stair House products including custom stair treads, stair nosings, flush mount vent covers, and matching wood flooring accessories.",
 };
 
 export default function ProductsPage() {
@@ -32,9 +32,9 @@ export default function ProductsPage() {
     <div className="page-shell gap-14">
       <section className="space-y-5">
         <p className="eyebrow">Products</p>
-        <h1 className="page-title">Matching wood flooring accessories built around the finished result.</h1>
+        <h1 className="page-title">Custom stair treads, stair nosings, vent covers, and matching flooring accessories.</h1>
         <p className="page-lead">
-          Custom Stair House focuses on a tight group of products that solve real finishing problems for flooring stores, installers, and trade buyers.
+          Custom Stair House focuses on a tight group of exact-match wood flooring accessories that solve real finishing problems for flooring stores, installers, and trade buyers.
         </p>
       </section>
 

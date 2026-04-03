@@ -1,6 +1,6 @@
 const faqs = [
   {
-    question: "What do I need to send to request pricing?",
+    question: "What do I need to send to request pricing for custom stair treads, stair nosings, or vent covers?",
     answer:
       "Start with the product needed, project details, measurements if available, and whether the flooring material is available for matching.",
   },
@@ -10,9 +10,14 @@ const faqs = [
       "Best for flooring stores, installers, and trade buyers who need exact-match accessories for wood-floor projects.",
   },
   {
-    question: "How does the matching process work?",
+    question: "How do you match stair nosing or vent covers to hardwood flooring?",
     answer:
-      "Custom Stair House works from the flooring material tied to the project so the accessory aligns more closely with the actual floor.",
+      "Custom Stair House works from the flooring material tied to the project so the accessory aligns more closely with the actual floor instead of relying on a rough visual guess.",
+  },
+  {
+    question: "Can vent covers be made to match hardwood floors?",
+    answer:
+      "Yes. Custom wood vent covers can be made to match the flooring material more closely so the finished floor looks cleaner and more complete.",
   },
   {
     question: "What is the typical turnaround time?",
@@ -27,9 +32,9 @@ const faqs = [
 ];
 
 export const metadata = {
-  title: "FAQ",
+  title: "FAQ | Stair Treads, Stair Nosings, Vent Covers, Turnaround, and Ordering",
   description:
-    "Frequently asked questions about ordering, turnaround time, materials, service area, and fit.",
+    "Frequently asked questions about custom stair treads, stair nosings, vent covers, ordering, turnaround time, materials, and service area.",
 };
 
 export default function FaqPage() {

@@ -7,9 +7,9 @@ const areas = [
 ];
 
 export const metadata = {
-  title: "Service Area",
+  title: "Service Area | Custom Stair Treads, Stair Nosings, and Vent Covers in Northern Virginia",
   description:
-    "See the Custom Stair House service area across Northern Virginia and the Washington area.",
+    "Custom Stair House serves Northern Virginia and the Washington area with custom stair treads, stair nosings, and vent covers made to match hardwood flooring.",
 };
 
 export default function ServiceAreaPage() {
@@ -17,9 +17,9 @@ export default function ServiceAreaPage() {
     <div className="page-shell gap-14">
       <section className="space-y-5">
         <p className="eyebrow">Service Area</p>
-        <h1 className="page-title">Serving Northern Virginia and the Washington area.</h1>
+        <h1 className="page-title">Custom stair treads, stair nosings, and vent covers for Northern Virginia and the Washington area.</h1>
         <p className="page-lead">
-          This page defines the current core geography and gives the site a clean foundation for future local SEO expansion.
+          Custom Stair House serves Northern Virginia and the Washington area with exact-match wood flooring accessories built for flooring stores, installers, and trade buyers.
         </p>
       </section>
 

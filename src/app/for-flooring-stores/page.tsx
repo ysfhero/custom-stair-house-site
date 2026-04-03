@@ -29,9 +29,9 @@ const onboarding = [
 ];
 
 export const metadata = {
-  title: "For Flooring Stores",
+  title: "For Flooring Stores | Exact-Match Stair Accessories and Repeat Ordering",
   description:
-    "A trade-focused page for flooring stores and wood-flooring sellers that need a reliable exact-match accessory partner.",
+    "A trade-focused page for flooring stores and wood-flooring sellers that need a reliable supplier for exact-match stair treads, stair nosings, and vent covers.",
 };
 
 export default function ForFlooringStoresPage() {
@@ -39,9 +39,9 @@ export default function ForFlooringStoresPage() {
     <div className="page-shell gap-14">
       <section className="space-y-5">
         <p className="eyebrow">For Flooring Stores</p>
-        <h1 className="page-title">A matching-accessory partner built for repeat flooring professionals.</h1>
+        <h1 className="page-title">A flooring store stair accessory partner built for repeat ordering.</h1>
         <p className="page-lead">
-          This page is for flooring stores and wood-flooring sellers who want a cleaner way to handle stair treads, stair nosings, vent covers, and other matching accessory requests.
+          This page is for flooring stores and wood-flooring sellers who need a reliable supplier for custom stair treads, stair nosings, vent covers, and other matching accessories tied to real customer flooring.
         </p>
         <div className="flex flex-col gap-4 sm:flex-row">
           <Link href="/request-a-quote" className="cta-primary">

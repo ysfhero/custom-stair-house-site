@@ -29,19 +29,19 @@ const steps = [
 ];
 
 export const metadata = {
-  title: "Custom Stair Treads",
+  title: "Custom Stair Treads | Exact-Match Wood Stair Treads in Northern Virginia",
   description:
-    "Custom stair treads made from customer-provided flooring material for cleaner finished jobs and better visual match.",
+    "Custom wood stair treads made from customer-provided flooring material for flooring stores, installers, and wood-flooring professionals in Northern Virginia.",
 };
 
 export default function StairTreadsPage() {
   return (
     <div className="page-shell gap-14">
       <section className="space-y-5">
-        <p className="eyebrow">Stair Treads</p>
-        <h1 className="page-title">Custom stair treads that match the floor the way the job should finish.</h1>
+        <p className="eyebrow">Custom Stair Treads</p>
+        <h1 className="page-title">Custom stair treads made to match hardwood floors more cleanly.</h1>
         <p className="page-lead">
-          Custom Stair House makes stair treads from customer-provided flooring material so the finished stair detail looks cleaner and the job feels complete.
+          Custom Stair House makes custom wood stair treads from customer-provided flooring material so flooring stores, installers, and trade buyers get a cleaner visual match and a stronger finished result.
         </p>
         <div className="flex flex-col gap-4 sm:flex-row">
           <Link href="/request-a-quote" className="cta-primary">

@@ -85,12 +85,12 @@ export default function Home() {
         <div className="section-shell grid gap-14 py-20 md:grid-cols-[1.2fr_0.8fr] md:items-center">
           <div className="space-y-8">
             <div className="space-y-4">
-              <p className="eyebrow">Exact-match wood flooring accessories</p>
+              <p className="eyebrow">Exact-match stair treads, stair nosings, and vent covers</p>
               <h1 className="text-5xl font-semibold tracking-tight text-stone-950 md:text-6xl">
-                Exact-match stair treads, stair nosings, and vent covers for flooring stores and wood-flooring professionals.
+                Custom stair treads, stair nosings, and vent covers made to match hardwood floors more cleanly.
               </h1>
               <p className="max-w-2xl text-lg leading-8 text-stone-600">
-                We make matching wood flooring accessories from your customer&apos;s flooring material so installs finish cleaner, stain-match headaches go down, and the final result actually looks right.
+                We make exact-match wood flooring accessories from your customer&apos;s flooring material so flooring stores, installers, and trade buyers get a cleaner finish, fewer stain-match headaches, and a result that actually looks right.
               </p>
               <p className="max-w-2xl text-base leading-7 text-stone-600">
                 Best fit for flooring stores, installers, and repeat trade buyers who keep running into the same finishing problem: the floor looks good, but the accessory does not.

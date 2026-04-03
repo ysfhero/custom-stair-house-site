@@ -7,19 +7,19 @@ const useCases = [
 ];
 
 export const metadata = {
-  title: "Custom Vent Covers",
+  title: "Flush Mount Vent Covers | Custom Wood Vent Covers to Match Flooring",
   description:
-    "Custom wood vent covers and flush mount vent covers designed to match the flooring material.",
+    "Custom wood vent covers and flush mount vent covers made to match hardwood flooring for a cleaner finished look.",
 };
 
 export default function VentCoversPage() {
   return (
     <div className="page-shell gap-14">
       <section className="space-y-5">
-        <p className="eyebrow">Vent Covers</p>
-        <h1 className="page-title">Matching vent covers that complete the floor instead of fighting it.</h1>
+        <p className="eyebrow">Flush Mount Vent Covers</p>
+        <h1 className="page-title">Custom wood vent covers that match hardwood floors more cleanly.</h1>
         <p className="page-lead">
-          Vent covers support the offer stack by helping the finished floor look more complete, especially on projects where visual consistency matters.
+          Custom Stair House makes custom wood vent covers and flush mount vent covers that match the surrounding flooring material so the finished floor looks complete instead of broken up by a generic vent.
         </p>
       </section>
 

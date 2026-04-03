@@ -20,19 +20,19 @@ const steps = [
 ];
 
 export const metadata = {
-  title: "Custom Stair Nosings",
+  title: "Stair Nosings | Custom Wood Stair Nosings to Match Hardwood Floors",
   description:
-    "Exact-match stair nosings for flooring stores, installers, and wood-flooring professionals.",
+    "Custom wood stair nosings for flooring stores, installers, and wood-flooring professionals who need stair nosing to match hardwood floors more cleanly.",
 };
 
 export default function StairNosingsPage() {
   return (
     <div className="page-shell gap-14">
       <section className="space-y-5">
-        <p className="eyebrow">Stair Nosings</p>
-        <h1 className="page-title">Exact-match stair nosings for one of the most common finishing problems.</h1>
+        <p className="eyebrow">Custom Stair Nosings</p>
+        <h1 className="page-title">Custom stair nosings that match hardwood floors the way the finish should look.</h1>
         <p className="page-lead">
-          When the stair nosing does not match the installed floor properly, the customer notices. This page exists to make the value of exact-match nosings obvious fast.
+          When stair nosing does not match the installed floor properly, the finished job looks off. Custom Stair House makes exact-match wood stair nosings from project flooring material so the transition feels intentional instead of improvised.
         </p>
         <div className="flex flex-col gap-4 sm:flex-row">
           <Link href="/request-a-quote" className="cta-primary">
