@@ -1,10 +1,11 @@
 import Link from "next/link";
+import { QuoteForm } from "./quote-form";
 
 const whatToSend = [
   "What product you need priced: stair treads, stair nosings, vent covers, or another matching accessory.",
   "Basic project details and timeline.",
   "Any measurements, photos, or job notes you already have.",
-  "Whether you are a flooring store, installer, contractor, or other buyer type.",
+  "Whether you are a flooring store, installer, contractor, or another buyer type.",
   "Whether flooring material is available for matching.",
 ];
 
@@ -27,23 +28,19 @@ export default function RequestAQuotePage() {
         <p className="eyebrow">Request a Quote</p>
         <h1 className="page-title">Send the project details and we’ll point you to the next step.</h1>
         <p className="page-lead">
-          This page should make the quote request feel simple. The goal is not a giant form. The goal is enough information to move the conversation forward fast.
+          This page is now wired with a real submission flow. It is still simple by design: enough information to move the conversation forward fast without creating a giant form.
         </p>
       </section>
 
       <section className="grid gap-8 md:grid-cols-[1.1fr_0.9fr]">
         <div className="rounded-[2rem] border border-stone-200 bg-white p-8">
           <p className="eyebrow">Quote request form</p>
-          <h2 className="mt-2 text-3xl font-semibold tracking-tight text-stone-950">Form to be connected next.</h2>
+          <h2 className="mt-2 text-3xl font-semibold tracking-tight text-stone-950">Tell us what you need.</h2>
           <p className="mt-4 text-base leading-7 text-stone-600">
-            For now, this is the content structure for the conversion page. Next step is wiring a real form handler or contact method into production.
+            Fill in the core project details. Once submitted, the site sends you to a thank-you page and the request is captured server-side.
           </p>
-          <div className="mt-6 grid gap-4 sm:grid-cols-2">
-            <div className="rounded-2xl border border-stone-200 bg-stone-50 p-4 text-sm text-stone-700">Name</div>
-            <div className="rounded-2xl border border-stone-200 bg-stone-50 p-4 text-sm text-stone-700">Email / phone</div>
-            <div className="rounded-2xl border border-stone-200 bg-stone-50 p-4 text-sm text-stone-700">Buyer type</div>
-            <div className="rounded-2xl border border-stone-200 bg-stone-50 p-4 text-sm text-stone-700">Product needed</div>
-            <div className="rounded-2xl border border-stone-200 bg-stone-50 p-4 text-sm text-stone-700 sm:col-span-2">Project details / measurements / notes</div>
+          <div className="mt-6">
+            <QuoteForm />
           </div>
         </div>
 
@@ -78,13 +75,13 @@ export default function RequestAQuotePage() {
         <div className="card">
           <h3 className="text-xl font-semibold text-stone-950">Trade / dealer inquiry</h3>
           <p className="mt-3 text-sm leading-6 text-stone-600">
-            If you are a flooring store or repeat trade buyer, mention that in the quote request so the conversation is framed correctly.
+            If you are a flooring store or repeat trade buyer, mention that in the quote request so the conversation starts in the right frame.
           </p>
         </div>
         <div className="card">
-          <h3 className="text-xl font-semibold text-stone-950">Next build step</h3>
+          <h3 className="text-xl font-semibold text-stone-950">Current form behavior</h3>
           <p className="mt-3 text-sm leading-6 text-stone-600">
-            Connect a real form handler, email workflow, or CRM endpoint and make this page the live conversion path.
+            Requests are validated server-side and redirected to a thank-you page. The next upgrade would be connecting email, CRM, or notification delivery.
           </p>
         </div>
       </section>
