@@ -1,3 +1,4 @@
+import Image from "next/image";
 import type { Metadata } from "next";
 import Link from "next/link";
 import { Geist, Geist_Mono } from "next/font/google";
@@ -49,6 +50,19 @@ export const metadata: Metadata = {
     url: "https://customstairhouse.com",
     siteName: "Custom Stair House",
     type: "website",
+    images: [
+      {
+        url: "/custom-stair-house-logo.png",
+        width: 1134,
+        height: 378,
+        alt: "Custom Stair House logo",
+      },
+    ],
+  },
+  icons: {
+    icon: "/custom-stair-house-logo.png",
+    shortcut: "/custom-stair-house-logo.png",
+    apple: "/custom-stair-house-logo.png",
   },
   alternates: {
     canonical: "/",
@@ -69,8 +83,15 @@ export default function RootLayout({
         <div className="flex min-h-screen flex-col">
           <header className="border-b border-stone-200 bg-white/95 backdrop-blur">
             <div className="mx-auto flex w-full max-w-7xl items-center justify-between gap-6 px-6 py-4">
-              <Link href="/" className="text-lg font-semibold tracking-tight text-stone-950">
-                Custom Stair House
+              <Link href="/" className="flex items-center" aria-label="Custom Stair House home">
+                <Image
+                  src="/custom-stair-house-logo.png"
+                  alt="Custom Stair House"
+                  width={220}
+                  height={73}
+                  className="h-auto w-[180px] sm:w-[220px]"
+                  priority
+                />
               </Link>
               <nav className="hidden items-center gap-6 md:flex">
                 {navItems.map((item) => (
@@ -97,7 +118,15 @@ export default function RootLayout({
           <footer className="border-t border-stone-200 bg-white">
             <div className="mx-auto grid w-full max-w-7xl gap-10 px-6 py-12 md:grid-cols-[1.5fr_1fr_1fr]">
               <div className="space-y-4">
-                <h2 className="text-lg font-semibold text-stone-950">Custom Stair House</h2>
+                <Link href="/" className="inline-flex items-center" aria-label="Custom Stair House home">
+                  <Image
+                    src="/custom-stair-house-logo.png"
+                    alt="Custom Stair House"
+                    width={220}
+                    height={73}
+                    className="h-auto w-[170px] sm:w-[220px]"
+                  />
+                </Link>
                 <p className="max-w-md text-sm leading-6 text-stone-600">
                   Exact-match stair treads, stair nosings, and vent covers for flooring stores,
                   installers, and wood-flooring professionals.
