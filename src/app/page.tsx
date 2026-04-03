@@ -3,17 +3,17 @@ import Link from "next/link";
 const products = [
   {
     title: "Custom Stair Treads",
-    text: "High-value exact-match stair components for projects where finish quality matters.",
+    text: "Exact-match stair components for projects where the stair finish needs to look intentional, not improvised.",
     href: "/stair-treads",
   },
   {
     title: "Stair Nosings",
-    text: "A clean solution for one of the most common wood-flooring finishing problems.",
+    text: "A cleaner solution for one of the most common wood-flooring finishing problems on live jobs.",
     href: "/stair-nosings",
   },
   {
     title: "Flush Mount Vent Covers",
-    text: "Matching vents made from the same flooring material for a more complete final look.",
+    text: "Matching vents made from the same flooring material so the finished floor looks complete.",
     href: "/vent-covers",
   },
 ];
@@ -21,8 +21,8 @@ const products = [
 const trustPoints = [
   "Typical turnaround is 1–4 business days depending on production load.",
   "Built for flooring stores, installers, and wood-flooring sellers.",
-  "Exact-match accessories made from customer-provided flooring material.",
-  "5+ years of experience in this specialty before launching in Virginia.",
+  "Made from customer-provided flooring material for a truer match.",
+  "5+ years of specialty experience before launching in Virginia.",
 ];
 
 const buyerTypes = [
@@ -35,15 +35,15 @@ const buyerTypes = [
 const reasons = [
   {
     title: "Exact material match",
-    text: "We manufacture from the flooring material provided for the project rather than relying on a guess-heavy stain match.",
+    text: "We build from the flooring material tied to the project instead of relying on a guess-heavy stain match.",
   },
   {
     title: "Fast turnaround",
-    text: "Typical turnaround is 1–4 business days depending on production load, which helps projects keep moving.",
+    text: "Typical turnaround is 1–4 business days depending on production load, which helps jobs keep moving.",
   },
   {
     title: "Cleaner finished result",
-    text: "The goal is a finished look that fits the actual floor instead of looking like an afterthought.",
+    text: "The goal is a finish detail that fits the actual floor instead of looking like an obvious compromise.",
   },
   {
     title: "Built for repeat use",
@@ -51,11 +51,31 @@ const reasons = [
   },
 ];
 
+const oldWay = [
+  "Relying on generic accessory options that are close, but not really right.",
+  "Wasting time trying to stain-match nosings or transitions in-house.",
+  "Finding out too late that the stair or vent detail breaks the look of the finished floor.",
+  "Having the customer notice the mismatch after the install is basically done.",
+];
+
+const customWay = [
+  "Use the actual flooring material tied to the project.",
+  "Fabricate the matching accessory around the floor instead of forcing a guess.",
+  "Reduce stain-match headaches, rework, and last-minute scrambling.",
+  "Hand off a cleaner finished result that looks intentional.",
+];
+
+const examples = [
+  "From a single custom vent cover to repeat stair nosing orders for dealer projects.",
+  "From one stair tread replacement to larger matching runs for active installs.",
+  "From one-off project needs to repeat ordering relationships with flooring stores.",
+];
+
 const steps = [
-  "Send project details or contact us.",
-  "Provide the flooring material.",
+  "Send the project details or contact us with what you need.",
+  "Provide the flooring material for the project.",
   "We fabricate the matching accessory.",
-  "You receive a cleaner, more complete finishing solution.",
+  "Pick up or receive a cleaner finishing solution for the install.",
 ];
 
 export default function Home() {
@@ -67,11 +87,13 @@ export default function Home() {
             <div className="space-y-4">
               <p className="eyebrow">Exact-match wood flooring accessories</p>
               <h1 className="text-5xl font-semibold tracking-tight text-stone-950 md:text-6xl">
-                Exact-match stair treads, stair nosings, and vent covers for flooring stores.
+                Exact-match stair treads, stair nosings, and vent covers for flooring stores and wood-flooring professionals.
               </h1>
               <p className="max-w-2xl text-lg leading-8 text-stone-600">
-                We make matching wood flooring accessories from your customer&apos;s flooring material so your installs finish cleaner,
-                stain-match headaches go down, and customers get a result that actually looks right.
+                We make matching wood flooring accessories from your customer&apos;s flooring material so installs finish cleaner, stain-match headaches go down, and the final result actually looks right.
+              </p>
+              <p className="max-w-2xl text-base leading-7 text-stone-600">
+                Best fit for flooring stores, installers, and repeat trade buyers who keep running into the same finishing problem: the floor looks good, but the accessory does not.
               </p>
             </div>
 
@@ -80,7 +102,7 @@ export default function Home() {
                 Request a Quote
               </Link>
               <Link href="/for-flooring-stores" className="cta-secondary">
-                Become a Dealer
+                For Flooring Stores
               </Link>
             </div>
           </div>
@@ -88,9 +110,9 @@ export default function Home() {
           <div className="rounded-[2rem] border border-stone-200 bg-stone-100 p-8">
             <div className="space-y-6">
               <div>
-                <p className="eyebrow">Trust bar</p>
+                <p className="eyebrow">Quick trust points</p>
                 <h2 className="mt-2 text-2xl font-semibold text-stone-950">
-                  Built to solve a finishing problem that shows up again and again.
+                  Built around a recurring trade problem.
                 </h2>
               </div>
               <ul className="space-y-3 text-sm leading-6 text-stone-700">
@@ -104,19 +126,39 @@ export default function Home() {
       </section>
 
       <section className="section-shell py-16">
-        <div className="max-w-3xl space-y-4">
+        <div className="max-w-3xl space-y-4 pb-8">
           <p className="eyebrow">The problem</p>
           <h2 className="text-3xl font-semibold tracking-tight text-stone-950">
-            Bad accessory matching creates problems downstream.
+            Matching problems usually show up at the worst point in the job.
           </h2>
           <p className="text-lg leading-8 text-stone-600">
-            If stair nosings, treads, or vent covers do not match the installed floor properly, the result looks off,
-            the customer notices, and the flooring store or installer gets blamed.
+            If stair nosings, treads, or vent covers do not match the installed floor properly, the result looks off, the customer notices, and the flooring store or installer gets blamed.
           </p>
           <p className="text-lg leading-8 text-stone-600">
-            Many teams either try to stain-match in-house, use generic accessory options that do not really fit,
-            or scramble late in the project when the mismatch becomes obvious.
+            Many teams either try to stain-match in-house, use generic accessory options that do not really fit, or scramble late in the project when the mismatch becomes obvious.
           </p>
+        </div>
+
+        <div className="grid gap-6 md:grid-cols-2">
+          <div className="rounded-[2rem] border border-stone-200 bg-white p-8">
+            <p className="eyebrow">The old way</p>
+            <h3 className="mt-2 text-2xl font-semibold text-stone-950">Too much guessing. Too much patchwork.</h3>
+            <ul className="mt-5 space-y-3 text-sm leading-6 text-stone-600">
+              {oldWay.map((item) => (
+                <li key={item}>• {item}</li>
+              ))}
+            </ul>
+          </div>
+
+          <div className="rounded-[2rem] border border-stone-900 bg-stone-900 p-8 text-white">
+            <p className="eyebrow text-stone-300">The Custom Stair House way</p>
+            <h3 className="mt-2 text-2xl font-semibold">Build around the actual flooring material.</h3>
+            <ul className="mt-5 space-y-3 text-sm leading-6 text-stone-300">
+              {customWay.map((item) => (
+                <li key={item}>• {item}</li>
+              ))}
+            </ul>
+          </div>
         </div>
       </section>
 
@@ -127,7 +169,7 @@ export default function Home() {
             We help flooring professionals finish the job properly.
           </h2>
           <p className="text-lg leading-8 text-stone-600">
-            Custom Stair House makes exact-match accessories from customer-provided flooring material so the finished job looks cleaner and the handoff feels stronger.
+            Custom Stair House makes exact-match accessories from customer-provided flooring material so the finished job looks cleaner, the handoff feels stronger, and the detail does not look like an afterthought.
           </p>
         </div>
         <div className="card-grid">
@@ -148,10 +190,13 @@ export default function Home() {
           <div className="space-y-4">
             <p className="eyebrow">Who it&apos;s for</p>
             <h2 className="text-3xl font-semibold tracking-tight text-stone-950">
-              Built for repeat flooring professionals.
+              Built primarily for repeat flooring professionals.
             </h2>
             <p className="text-lg leading-8 text-stone-600">
               We work best with flooring stores, engineered wood flooring sellers, installers, and strong-fit trade buyers who need matching accessories done quickly and consistently.
+            </p>
+            <p className="text-base leading-7 text-stone-600">
+              Strong-fit one-off projects can still work, but the sweet spot is buyers who run into this problem repeatedly and want a reliable solution.
             </p>
           </div>
           <div className="grid gap-4 sm:grid-cols-2">
@@ -182,12 +227,31 @@ export default function Home() {
       </section>
 
       <section className="section-shell py-16">
+        <div className="grid gap-8 rounded-[2rem] border border-stone-200 bg-stone-50 p-8 md:grid-cols-[1fr_1fr] md:items-start">
+          <div className="space-y-4">
+            <p className="eyebrow">Project fit examples</p>
+            <h2 className="text-3xl font-semibold tracking-tight text-stone-950">
+              Not a generic woodworking shop.
+            </h2>
+            <p className="text-lg leading-8 text-stone-600">
+              The offer stays narrow on purpose: exact-match wood flooring accessories that solve real finishing problems.
+            </p>
+          </div>
+          <ul className="space-y-3 text-sm leading-6 text-stone-600">
+            {examples.map((item) => (
+              <li key={item}>• {item}</li>
+            ))}
+          </ul>
+        </div>
+      </section>
+
+      <section className="section-shell py-16">
         <div className="grid gap-8 md:grid-cols-[0.9fr_1.1fr] md:items-start">
           <div className="space-y-4">
             <p className="eyebrow">How it works</p>
             <h2 className="text-3xl font-semibold tracking-tight text-stone-950">Simple process.</h2>
             <p className="text-lg leading-8 text-stone-600">
-              The process should feel straightforward, especially for repeat trade buyers.
+              The process should feel straightforward, especially for repeat trade buyers who need things to move quickly.
             </p>
           </div>
           <ol className="grid gap-4">
@@ -216,7 +280,7 @@ export default function Home() {
               Today, the strongest immediate trust signals are trade experience, local service focus, and physical samples for stores and trade partners.
             </p>
             <p className="text-base leading-7 text-stone-600">
-              Over time, this section should be upgraded with installed project photos, dealer testimonials, before/after examples, and product close-ups in finished homes.
+              The next upgrade here should be installed project photos, dealer testimonials, before/after examples, and close-up product shots so the page proves the match instead of only describing it.
             </p>
           </div>
         </div>
@@ -231,8 +295,7 @@ export default function Home() {
                 Want a reliable matching-accessory partner?
               </h2>
               <p className="max-w-2xl text-base leading-7 text-stone-300">
-                If you run a flooring store, sell engineered wood flooring, or handle regular wood-floor installs,
-                we&apos;d love to show you samples, discuss pricing, and make repeat ordering easier.
+                If you run a flooring store, sell engineered wood flooring, or handle regular wood-floor installs, we&apos;d love to show you samples, discuss pricing, and make repeat ordering easier.
               </p>
             </div>
             <div className="flex flex-col gap-4 sm:flex-row md:flex-col">
