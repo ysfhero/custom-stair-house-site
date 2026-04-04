@@ -2,6 +2,7 @@ import Image from "next/image";
 import type { Metadata } from "next";
 import Link from "next/link";
 import { Geist, Geist_Mono } from "next/font/google";
+import { Nav } from "@/components/nav";
 import "./globals.css";
 
 const geistSans = Geist({
@@ -13,15 +14,6 @@ const geistMono = Geist_Mono({
   variable: "--font-geist-mono",
   subsets: ["latin"],
 });
-
-const navItems = [
-  { href: "/products", label: "Products" },
-  { href: "/for-flooring-stores", label: "For Flooring Stores" },
-  { href: "/how-it-works", label: "How It Works" },
-  { href: "/gallery", label: "Gallery" },
-  { href: "/about", label: "About" },
-  { href: "/faq", label: "FAQ" },
-];
 
 const footerLinks = [
   { href: "/stair-treads", label: "Stair Treads" },
@@ -81,38 +73,7 @@ export default function RootLayout({
     >
       <body className="min-h-full bg-stone-50 text-stone-900">
         <div className="flex min-h-screen flex-col">
-          <header className="border-b border-stone-200 bg-white/95 backdrop-blur">
-            <div className="mx-auto flex w-full max-w-7xl items-center justify-between gap-6 px-6 py-4">
-              <Link href="/" className="flex items-center" aria-label="Custom Stair House home">
-                <Image
-                  src="/custom-stair-house-logo.png"
-                  alt="Custom Stair House"
-                  width={220}
-                  height={73}
-                  className="h-auto w-[180px] sm:w-[220px]"
-                  priority
-                />
-              </Link>
-              <nav className="hidden items-center gap-6 md:flex">
-                {navItems.map((item) => (
-                  <Link
-                    key={item.href}
-                    href={item.href}
-                    className="text-sm font-medium text-stone-700 transition hover:text-stone-950"
-                  >
-                    {item.label}
-                  </Link>
-                ))}
-              </nav>
-              <Link
-                href="/request-a-quote"
-                className="inline-flex items-center justify-center rounded-full bg-stone-900 px-5 py-3 text-sm font-semibold text-white transition hover:bg-stone-700"
-              >
-                Request a Quote
-              </Link>
-            </div>
-          </header>
-
+          <Nav />
           <main className="flex-1">{children}</main>
 
           <footer className="border-t border-stone-200 bg-white">
