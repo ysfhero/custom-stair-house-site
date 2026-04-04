@@ -15,7 +15,7 @@ export default function RequestAQuotePage() {
         <p className="eyebrow">Request a Quote</p>
         <h1 className="page-title">Tell us about the job and we&apos;ll get back to you with pricing.</h1>
         <p className="page-lead">
-          Keep it simple — product type, measurements, and a note on timing. We&apos;ll take it from there.
+          Stair treads, stair nosings, vent covers, or something else — keep it simple. Product, measurements, timing. We&apos;ll take it from there.
         </p>
       </section>
 

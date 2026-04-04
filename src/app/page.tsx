@@ -163,10 +163,10 @@ export default function HomePage() {
         <div className="grid gap-6 md:grid-cols-[1fr_auto] md:items-center">
           <div className="space-y-3">
             <h2 className="text-3xl font-semibold tracking-tight">
-              Need a reliable source for matching stair treads, nosings, or vent covers?
+              Need a reliable source for matching flooring accessories?
             </h2>
             <p className="max-w-2xl text-base leading-7 text-stone-300">
-              Flooring store, installer, or contractor — reach out about your next job.
+              Stair treads, nosings, vent covers — flooring store, installer, or contractor, reach out about your next job.
             </p>
           </div>
           <Link href="/request-a-quote" className="inline-flex items-center justify-center rounded-full bg-white px-5 py-3 text-sm font-semibold text-stone-950 transition hover:bg-stone-200 whitespace-nowrap">

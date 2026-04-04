@@ -27,7 +27,7 @@ export default function ForFlooringStoresPage() {
         <p className="eyebrow">For Flooring Stores</p>
         <h1 className="page-title">A local matching-accessory supplier built for repeat trade orders.</h1>
         <p className="page-lead">
-          If your store regularly fields requests for stair treads, nosings, or vent covers that actually match the floor, we can be the source you call every time. Fast turnaround. No stain-match guesswork. Built from the customer&apos;s actual flooring material.
+          If your store regularly fields requests for matching flooring accessories that actually look right, we can be the source you call every time. Fast turnaround. No stain-match guesswork. Built from the customer&apos;s actual flooring material.
         </p>
         <div className="flex flex-col gap-4 sm:flex-row">
           <Link href="/request-a-quote" className="cta-primary">
@@ -51,7 +51,7 @@ export default function ForFlooringStoresPage() {
             We exist to fix that. Bring us the flooring material from the job and we fabricate the tread, nosing, or vent cover from it. The match is real because it&apos;s made from the same floor.
           </p>
           <p className="text-base leading-7 text-stone-600">
-            The stores that use us most keep coming back because it solves the same problem on every job without the scramble.
+            The stores that use us most keep coming back because it solves the same matching problem on every job without the scramble.
           </p>
         </div>
         <div className="rounded-[2rem] border border-stone-200 bg-stone-50 p-6 space-y-4">
@@ -85,7 +85,7 @@ export default function ForFlooringStoresPage() {
           <div className="space-y-3">
             <h2 className="text-3xl font-semibold tracking-tight">Ready to try a first order?</h2>
             <p className="max-w-2xl text-base leading-7 text-stone-300">
-              Send us your next matching-accessory job. If the fit is strong, we can talk about pricing for repeat work.
+              Send us your next job. If the fit is strong, we can talk about pricing for repeat work.
             </p>
           </div>
           <Link href="/request-a-quote" className="inline-flex items-center justify-center rounded-full bg-white px-5 py-3 text-sm font-semibold text-stone-950 transition hover:bg-stone-200 whitespace-nowrap">
