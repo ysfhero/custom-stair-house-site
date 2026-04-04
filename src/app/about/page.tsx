@@ -44,6 +44,28 @@ export default function AboutPage() {
         </div>
       </section>
 
+      <section className="grid gap-4 sm:grid-cols-3">
+        <div className="rounded-[2rem] border border-stone-200 bg-white p-6">
+          <p className="eyebrow">Call or Text</p>
+          <a href="tel:+15712086437" className="mt-2 block text-lg font-semibold text-stone-950 hover:underline">(571) 208-6437</a>
+        </div>
+        <div className="rounded-[2rem] border border-stone-200 bg-white p-6">
+          <p className="eyebrow">Email</p>
+          <a href="mailto:sales@customstairhouse.com" className="mt-2 block text-base font-semibold text-stone-950 hover:underline break-all">sales@customstairhouse.com</a>
+        </div>
+        <div className="rounded-[2rem] border border-stone-200 bg-white p-6">
+          <p className="eyebrow">Drop-Off Location</p>
+          <a
+            href="https://maps.google.com/?q=45700+Woodland+Rd+%23160+Sterling+VA+20166"
+            target="_blank"
+            rel="noopener noreferrer"
+            className="mt-2 block text-base font-semibold text-stone-950 hover:underline leading-6"
+          >
+            45700 Woodland Rd #160<br />Sterling, VA 20166
+          </a>
+        </div>
+      </section>
+
       <section className="rounded-[2rem] bg-stone-900 px-8 py-10 text-white">
         <div className="grid gap-6 md:grid-cols-[1fr_auto] md:items-center">
           <div className="space-y-3">

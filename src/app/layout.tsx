@@ -77,7 +77,7 @@ export default function RootLayout({
           <main className="flex-1">{children}</main>
 
           <footer className="border-t border-stone-200 bg-white">
-            <div className="mx-auto grid w-full max-w-7xl gap-10 px-6 py-12 md:grid-cols-[1.5fr_1fr_1fr]">
+            <div className="mx-auto grid w-full max-w-7xl gap-10 px-6 py-12 md:grid-cols-[1.5fr_1fr_1fr_1fr]">
               <div className="space-y-4">
                 <Link href="/" className="inline-flex items-center" aria-label="Custom Stair House home">
                   <Image
@@ -124,6 +124,33 @@ export default function RootLayout({
                       </Link>
                     </li>
                   ))}
+                </ul>
+              </div>
+
+              <div>
+                <h3 className="mb-4 text-sm font-semibold uppercase tracking-[0.16em] text-stone-500">
+                  Contact
+                </h3>
+                <ul className="space-y-4 text-sm leading-6 text-stone-600">
+                  <li>
+                    <p className="font-medium text-stone-800">Call or Text</p>
+                    <a href="tel:+15712086437" className="hover:text-stone-950">(571) 208-6437</a>
+                  </li>
+                  <li>
+                    <p className="font-medium text-stone-800">Email</p>
+                    <a href="mailto:sales@customstairhouse.com" className="hover:text-stone-950">sales@customstairhouse.com</a>
+                  </li>
+                  <li>
+                    <p className="font-medium text-stone-800">Drop-Off Location</p>
+                    <a
+                      href="https://maps.google.com/?q=45700+Woodland+Rd+%23160+Sterling+VA+20166"
+                      target="_blank"
+                      rel="noopener noreferrer"
+                      className="hover:text-stone-950"
+                    >
+                      45700 Woodland Rd #160<br />Sterling, VA 20166
+                    </a>
+                  </li>
                 </ul>
               </div>
             </div>

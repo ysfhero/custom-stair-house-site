@@ -39,11 +39,28 @@ export default function RequestAQuotePage() {
               <li>• Whether you&apos;re a flooring store, installer, or contractor</li>
             </ul>
           </div>
-          <div className="rounded-[2rem] border border-stone-200 bg-white p-6">
-            <p className="eyebrow">Service area</p>
-            <p className="mt-3 text-sm leading-6 text-stone-600">
-              Serving Northern Virginia and the Washington DC area.
-            </p>
+          <div className="rounded-[2rem] border border-stone-200 bg-white p-6 space-y-4">
+            <p className="eyebrow">Contact</p>
+            <div>
+              <p className="text-xs font-semibold uppercase tracking-widest text-stone-400">Call or Text</p>
+              <a href="tel:+15712086437" className="mt-1 block text-sm font-semibold text-stone-950 hover:underline">(571) 208-6437</a>
+            </div>
+            <div>
+              <p className="text-xs font-semibold uppercase tracking-widest text-stone-400">Email</p>
+              <a href="mailto:sales@customstairhouse.com" className="mt-1 block text-sm font-semibold text-stone-950 hover:underline break-all">sales@customstairhouse.com</a>
+            </div>
+            <div>
+              <p className="text-xs font-semibold uppercase tracking-widest text-stone-400">Drop-Off Location</p>
+              <a
+                href="https://maps.google.com/?q=45700+Woodland+Rd+%23160+Sterling+VA+20166"
+                target="_blank"
+                rel="noopener noreferrer"
+                className="mt-1 block text-sm font-semibold text-stone-950 hover:underline leading-6"
+              >
+                45700 Woodland Rd #160<br />Sterling, VA 20166
+              </a>
+            </div>
+            <p className="text-xs text-stone-500">Serving Northern Virginia &amp; the DC area.</p>
           </div>
           <div className="rounded-[2rem] border border-stone-200 bg-white p-6">
             <p className="eyebrow">Flooring store?</p>
