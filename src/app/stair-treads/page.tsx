@@ -2,22 +2,22 @@ import Link from "next/link";
 
 const useCases = [
   "Flooring store jobs where the stair detail has to match the customer’s actual floor.",
-  "Installers who do not want to rely on a generic stair part or a shaky stain match.",
+  "Installers who are done relying on generic stair parts or shaky stain matches.",
   "Trade buyers who need a repeatable source for matching stair treads on active jobs.",
 ];
 
 const benefits = [
   {
     title: "Built from the actual floor",
-    text: "Using the project flooring material helps the stair tread match the installed floor instead of looking like a near miss.",
+    text: "Using the project flooring material gives you a much better chance of getting the stair tread to read like part of the install, not a near miss.",
   },
   {
     title: "Protect the finished look",
-    text: "A matching stair tread helps the staircase feel like part of the job, not a detail that was patched together at the end.",
+    text: "A matching stair tread helps the staircase feel complete instead of becoming the one detail the customer notices for the wrong reason.",
   },
   {
-    title: "Useful on repeat orders",
-    text: "For flooring stores and installers, this creates a more dependable way to solve the same stair-matching problem across multiple projects.",
+    title: "Made for repeat trade work",
+    text: "For flooring stores and installers, this creates a better system for solving the same stair-matching problem across multiple projects.",
   },
 ];
 
@@ -39,9 +39,9 @@ export default function StairTreadsPage() {
     <div className="page-shell gap-14">
       <section className="space-y-5">
         <p className="eyebrow">Custom Stair Treads</p>
-        <h1 className="page-title">Custom stair treads made to match the floor, not just fill the stair.</h1>
+        <h1 className="page-title">Exact-match stair treads made from the customer&apos;s actual flooring.</h1>
         <p className="page-lead">
-          Custom Stair House fabricates custom wood stair treads from customer-provided flooring material so flooring stores, installers, and trade buyers can deliver a stair finish that actually matches the rest of the job.
+          Custom Stair House fabricates custom wood stair treads from customer-provided flooring material so flooring stores, installers, and trade buyers can stop forcing generic parts into jobs where the stair finish has to actually match.
         </p>
         <div className="flex flex-col gap-4 sm:flex-row">
           <Link href="/request-a-quote" className="cta-primary">
@@ -57,10 +57,13 @@ export default function StairTreadsPage() {
         <div className="space-y-4">
           <p className="eyebrow">Why it matters</p>
           <h2 className="text-3xl font-semibold tracking-tight text-stone-950">
-            A stair tread mismatch can drag down the whole staircase.
+            If the stair tread looks wrong, the whole staircase looks wrong.
           </h2>
           <p className="text-base leading-7 text-stone-600">
-            On wood-flooring jobs, the stair detail is too visible to fake. If the tread looks off, the whole finish suffers. That is why stores and installers often need something better than a generic part or a rushed stain match.
+            On wood-flooring jobs, the stair detail is too visible to fake. A bad tread match can make a strong install feel cheap, unfinished, or thrown together at the last minute.
+          </p>
+          <p className="text-base leading-7 text-stone-600">
+            That is why stores and installers need something better than a generic part, a rushed workaround, or stain matching that only looks acceptable from far away.
           </p>
         </div>
         <div className="rounded-[2rem] border border-stone-200 bg-white p-6">
@@ -87,7 +90,7 @@ export default function StairTreadsPage() {
           <p className="eyebrow">Ordering process</p>
           <h2 className="text-3xl font-semibold tracking-tight text-stone-950">A straightforward path from quote to fabrication.</h2>
           <p className="text-base leading-7 text-stone-600">
-            The process is built to stay simple enough for repeat trade orders, not force you to solve the same problem from scratch every time.
+            The process is built to be simple enough for repeat trade orders and fast enough to keep jobs moving.
           </p>
         </div>
         <ol className="grid gap-4">

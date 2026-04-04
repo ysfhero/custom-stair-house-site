@@ -2,13 +2,13 @@ import Link from "next/link";
 
 const painPoints = [
   "The floor looks right, but the nosing looks like it came from a different job.",
-  "Stores and installers get blamed when the edge detail breaks the finished look.",
+  "Stores and installers get blamed when the edge detail ruins the finished look.",
   "Late-stage stain matching creates unnecessary risk, delay, and frustration.",
 ];
 
 const fitPoints = [
   "Flooring stores that need a cleaner, more dependable finish detail for customers.",
-  "Installers handling wood-floor projects where the match has to look right the first time.",
+  "Installers handling wood-floor projects where the edge detail has to look right the first time.",
   "Repeat trade buyers who want a better answer than generic nosings or guesswork.",
 ];
 
@@ -30,9 +30,9 @@ export default function StairNosingsPage() {
     <div className="page-shell gap-14">
       <section className="space-y-5">
         <p className="eyebrow">Custom Stair Nosings</p>
-        <h1 className="page-title">Custom stair nosings made to match the floor, not fight against it.</h1>
+        <h1 className="page-title">Exact-match stair nosings for jobs where a bad edge detail is not acceptable.</h1>
         <p className="page-lead">
-          When stair nosing does not match the installed floor, the finished job looks off fast. Custom Stair House makes exact-match wood stair nosings from project flooring material so the transition looks like part of the floor instead of an obvious compromise.
+          When stair nosing does not match the installed floor, the finished job looks off immediately. Custom Stair House makes exact-match wood stair nosings from project flooring material so the transition looks right instead of looking like an obvious compromise.
         </p>
         <div className="flex flex-col gap-4 sm:flex-row">
           <Link href="/request-a-quote" className="cta-primary">
@@ -48,7 +48,7 @@ export default function StairNosingsPage() {
         <div className="rounded-[2rem] border border-stone-200 bg-white p-6">
           <p className="eyebrow">The mismatch problem</p>
           <h2 className="mt-2 text-3xl font-semibold tracking-tight text-stone-950">
-            Stair nosing mismatch is small on paper and obvious on the job.
+            Stair nosing mismatch is one of the fastest ways to cheapen a good floor.
           </h2>
           <ul className="mt-5 space-y-3 text-sm leading-6 text-stone-600">
             {painPoints.map((item) => (
@@ -73,10 +73,10 @@ export default function StairNosingsPage() {
         <div className="max-w-3xl space-y-4">
           <p className="eyebrow">Why exact match matters</p>
           <h2 className="text-3xl font-semibold tracking-tight text-stone-950">
-            The right nosing protects the look of the whole floor.
+            The right nosing protects the look of the whole install.
           </h2>
           <p className="text-base leading-7 text-stone-600">
-            A good stair nosing does more than meet a requirement. It keeps the edge detail aligned with the rest of the floor, cuts down on ugly visual breaks, and gives flooring professionals a more reliable way to finish the job properly.
+            A good stair nosing does more than check a box. It keeps the edge detail aligned with the rest of the floor, cuts down on ugly visual breaks, and gives flooring professionals a more reliable way to hand off a finished job with confidence.
           </p>
         </div>
       </section>
