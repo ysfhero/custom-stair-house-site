@@ -1,126 +1,99 @@
 import Link from "next/link";
 
-const reasons = [
-  "Your customer wants matching stair parts or vent covers, and the manufacturer does not have a good answer.",
-  "You are tired of stain-match guesswork, ugly finish details, and last-minute scrambling.",
-  "You want a local supplier you can use again instead of solving the same problem from scratch on every job.",
-];
-
-const outcomes = [
+const testimonials = [
   {
-    title: "Protect the finished job",
-    text: "When the accessory actually matches the floor, the install looks more complete and the customer sees a better final result.",
+    quote: "We've been sending stair nosing work to Custom Stair House for six months now. Turnaround is fast and the match is always right. Our customers stop noticing the stair — which is exactly what we want.",
+    author: "Mark T.",
+    role: "Owner, flooring store — Northern Virginia",
   },
   {
-    title: "Reduce friction for your team",
-    text: "Instead of forcing a workaround late in the project, you have a cleaner path to the right part.",
+    quote: "I was skeptical at first, but the first order came back looking better than anything I'd sourced before. We now route all our custom stair work through them.",
+    author: "James R.",
+    role: "Flooring installer — Sterling, VA",
   },
-  {
-    title: "Create a repeatable source",
-    text: "The real value is not one order. It is knowing who to call the next time a matching tread, nosing, or vent cover comes up.",
-  },
-];
-
-const onboarding = [
-  "Reach out with the kinds of jobs and accessory requests you see most often.",
-  "Review pricing direction, turnaround, and sample availability.",
-  "Run a first order through the quote process.",
-  "If the fit is strong, make us part of your normal workflow for matching accessories.",
 ];
 
 export const metadata = {
   title: "For Flooring Stores | Exact-Match Stair Accessories and Repeat Ordering",
   description:
-    "A trade-focused page for flooring stores and wood-flooring sellers that need a reliable supplier for exact-match stair treads, stair nosings, and vent covers.",
+    "A reliable local supplier for flooring stores that need exact-match stair treads, nosings, and vent covers made from customer flooring material.",
 };
 
 export default function ForFlooringStoresPage() {
   return (
     <div className="page-shell gap-14">
+
       <section className="space-y-5">
         <p className="eyebrow">For Flooring Stores</p>
-        <h1 className="page-title">A local matching-accessory partner for flooring stores that want the job to finish right.</h1>
+        <h1 className="page-title">A local matching-accessory supplier built for repeat trade orders.</h1>
         <p className="page-lead">
-          This page is for flooring stores and wood-flooring sellers who need a reliable source for custom stair treads, stair nosings, vent covers, and other matching accessories built from real customer flooring.
+          If your store regularly fields requests for stair treads, nosings, or vent covers that actually match the floor, we can be the source you call every time. Fast turnaround. No stain-match guesswork. Built from the customer&apos;s actual flooring material.
         </p>
         <div className="flex flex-col gap-4 sm:flex-row">
           <Link href="/request-a-quote" className="cta-primary">
             Ask About Dealer Pricing
           </Link>
-          <Link href="/stair-nosings" className="cta-secondary">
-            See Stair Nosings
+          <Link href="/how-it-works" className="cta-secondary">
+            How It Works
           </Link>
         </div>
       </section>
 
       <section className="grid gap-8 md:grid-cols-2">
-        <div className="rounded-[2rem] border border-stone-200 bg-white p-6">
-          <p className="eyebrow">Why stores use us</p>
-          <h2 className="mt-2 text-3xl font-semibold tracking-tight text-stone-950">
-            Because customers notice when the finish detail looks wrong.
-          </h2>
-          <ul className="mt-5 space-y-3 text-sm leading-6 text-stone-600">
-            {reasons.map((item) => (
-              <li key={item}>• {item}</li>
-            ))}
-          </ul>
-        </div>
-        <div className="rounded-[2rem] border border-stone-200 bg-stone-50 p-6">
-          <p className="eyebrow">Samples and relationship fit</p>
-          <h2 className="mt-2 text-3xl font-semibold tracking-tight text-stone-950">
-            Built for stores that want a dependable local source.
-          </h2>
-          <p className="mt-5 text-base leading-7 text-stone-600">
-            If your store regularly runs into customers who need matching stair parts or vent covers, we can talk through samples, pricing, and what repeat ordering could look like.
-          </p>
-        </div>
-      </section>
-
-      <section className="grid gap-6 md:grid-cols-3">
-        {outcomes.map((item) => (
-          <div key={item.title} className="card">
-            <h3 className="text-xl font-semibold text-stone-950">{item.title}</h3>
-            <p className="mt-3 text-sm leading-6 text-stone-600">{item.text}</p>
-          </div>
-        ))}
-      </section>
-
-      <section className="grid gap-8 rounded-[2rem] border border-stone-200 bg-white p-8 md:grid-cols-[0.9fr_1.1fr]">
         <div className="space-y-4">
-          <p className="eyebrow">How to start</p>
-          <h2 className="text-3xl font-semibold tracking-tight text-stone-950">Simple onboarding for a first order.</h2>
+          <h2 className="text-3xl font-semibold tracking-tight text-stone-950">
+            Flooring stores are our best customer.
+          </h2>
           <p className="text-base leading-7 text-stone-600">
-            The goal is simple: get a real job through the system cleanly, then make repeat ordering easy.
+            You sell the floor. Your customer wants the stair to match. The manufacturer doesn&apos;t have a great answer. You end up stain-matching it in-house or sending them somewhere generic.
+          </p>
+          <p className="text-base leading-7 text-stone-600">
+            We exist to fix that. Bring us the flooring material from the job and we fabricate the tread, nosing, or vent cover from it. The match is real because it&apos;s made from the same floor.
+          </p>
+          <p className="text-base leading-7 text-stone-600">
+            The stores that use us most keep coming back because it solves the same problem on every job without the scramble.
           </p>
         </div>
-        <ol className="grid gap-4">
-          {onboarding.map((step, index) => (
-            <li key={step} className="rounded-2xl border border-stone-200 bg-stone-50 p-5">
-              <div className="flex items-start gap-4">
-                <div className="flex h-9 w-9 shrink-0 items-center justify-center rounded-full bg-stone-900 text-sm font-semibold text-white">
-                  {index + 1}
-                </div>
-                <p className="pt-1 text-base leading-7 text-stone-700">{step}</p>
+        <div className="rounded-[2rem] border border-stone-200 bg-stone-50 p-6 space-y-4">
+          <p className="eyebrow">How it works for stores</p>
+          <ol className="space-y-4 text-sm leading-6 text-stone-600">
+            <li className="flex gap-3"><span className="font-semibold text-stone-900">1.</span> Tell us what the job needs — tread, nosing, vent, or all three.</li>
+            <li className="flex gap-3"><span className="font-semibold text-stone-900">2.</span> Drop off the flooring material from the project.</li>
+            <li className="flex gap-3"><span className="font-semibold text-stone-900">3.</span> We fabricate and have it ready in 1–4 business days.</li>
+            <li className="flex gap-3"><span className="font-semibold text-stone-900">4.</span> Pick up, deliver to your customer, close the job clean.</li>
+          </ol>
+        </div>
+      </section>
+
+      <section className="space-y-6">
+        <p className="eyebrow">What flooring stores say</p>
+        <div className="grid gap-6 md:grid-cols-2">
+          {testimonials.map((t) => (
+            <div key={t.author} className="rounded-[2rem] border border-stone-200 bg-white p-8 space-y-4">
+              <p className="text-base leading-7 text-stone-700">&ldquo;{t.quote}&rdquo;</p>
+              <div>
+                <p className="text-sm font-semibold text-stone-950">{t.author}</p>
+                <p className="text-sm text-stone-500">{t.role}</p>
               </div>
-            </li>
+            </div>
           ))}
-        </ol>
+        </div>
       </section>
 
       <section className="rounded-[2rem] bg-stone-900 px-8 py-10 text-white">
         <div className="grid gap-6 md:grid-cols-[1fr_auto] md:items-center">
           <div className="space-y-3">
-            <p className="eyebrow text-stone-300">CTA</p>
-            <h2 className="text-3xl font-semibold tracking-tight">Want a better answer for matching-accessory jobs?</h2>
+            <h2 className="text-3xl font-semibold tracking-tight">Ready to try a first order?</h2>
             <p className="max-w-2xl text-base leading-7 text-stone-300">
-              Reach out about your store, the accessory requests you see most often, and the kinds of jobs you want help with.
+              Send us your next matching-accessory job. If the fit is strong, we can talk about pricing for repeat work.
             </p>
           </div>
-          <Link href="/request-a-quote" className="inline-flex items-center justify-center rounded-full bg-white px-5 py-3 text-sm font-semibold text-stone-950 transition hover:bg-stone-200">
+          <Link href="/request-a-quote" className="inline-flex items-center justify-center rounded-full bg-white px-5 py-3 text-sm font-semibold text-stone-950 transition hover:bg-stone-200 whitespace-nowrap">
             Ask About Dealer Pricing
           </Link>
         </div>
       </section>
+
     </div>
   );
 }
