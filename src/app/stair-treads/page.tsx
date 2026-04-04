@@ -1,31 +1,31 @@
 import Link from "next/link";
 
 const useCases = [
-  "Projects where finish quality matters and a generic stair part would look off.",
-  "Flooring store jobs where the accessory needs to match the customer’s actual flooring material.",
-  "Trade buyers who want a cleaner finished result without forcing a bad stain match.",
+  "Flooring store jobs where the stair detail has to match the customer’s actual floor.",
+  "Installers who do not want to rely on a generic stair part or a shaky stain match.",
+  "Trade buyers who need a repeatable source for matching stair treads on active jobs.",
 ];
 
 const benefits = [
   {
-    title: "Better visual match",
-    text: "Built from the flooring material provided for the project so the stair component fits the floor more naturally.",
+    title: "Built from the actual floor",
+    text: "Using the project flooring material helps the stair tread match the installed floor instead of looking like a near miss.",
   },
   {
-    title: "Stronger customer result",
-    text: "A cleaner finished stair detail helps the whole job feel more complete at handoff.",
+    title: "Protect the finished look",
+    text: "A matching stair tread helps the staircase feel like part of the job, not a detail that was patched together at the end.",
   },
   {
-    title: "Useful for repeat trade buyers",
-    text: "Flooring stores and installers can use the process repeatedly instead of solving the same matching problem from scratch every time.",
+    title: "Useful on repeat orders",
+    text: "For flooring stores and installers, this creates a more dependable way to solve the same stair-matching problem across multiple projects.",
   },
 ];
 
 const steps = [
-  "Send project details and what you need priced.",
-  "Provide the flooring material for the project.",
-  "We fabricate the stair tread to fit the matching requirement.",
-  "Pickup or delivery is coordinated based on the job.",
+  "Send the job details and tell us what kind of tread you need.",
+  "Provide the flooring material tied to the project.",
+  "We fabricate the stair tread around the actual match requirement.",
+  "Pick up or receive the finished piece and keep the install moving.",
 ];
 
 export const metadata = {
@@ -39,9 +39,9 @@ export default function StairTreadsPage() {
     <div className="page-shell gap-14">
       <section className="space-y-5">
         <p className="eyebrow">Custom Stair Treads</p>
-        <h1 className="page-title">Custom stair treads made to match hardwood floors more cleanly.</h1>
+        <h1 className="page-title">Custom stair treads made to match the floor, not just fill the stair.</h1>
         <p className="page-lead">
-          Custom Stair House makes custom wood stair treads from customer-provided flooring material so flooring stores, installers, and trade buyers get a cleaner visual match and a stronger finished result.
+          Custom Stair House fabricates custom wood stair treads from customer-provided flooring material so flooring stores, installers, and trade buyers can deliver a stair finish that actually matches the rest of the job.
         </p>
         <div className="flex flex-col gap-4 sm:flex-row">
           <Link href="/request-a-quote" className="cta-primary">
@@ -57,11 +57,10 @@ export default function StairTreadsPage() {
         <div className="space-y-4">
           <p className="eyebrow">Why it matters</p>
           <h2 className="text-3xl font-semibold tracking-tight text-stone-950">
-            A stair tread that does not fit the floor visually can pull down the whole job.
+            A stair tread mismatch can drag down the whole staircase.
           </h2>
           <p className="text-base leading-7 text-stone-600">
-            On projects where the floor finish matters, generic stair components or loose stain matching can make the transition feel off.
-            Exact-match treads are about getting the finish right, not just filling a category.
+            On wood-flooring jobs, the stair detail is too visible to fake. If the tread looks off, the whole finish suffers. That is why stores and installers often need something better than a generic part or a rushed stain match.
           </p>
         </div>
         <div className="rounded-[2rem] border border-stone-200 bg-white p-6">
@@ -88,7 +87,7 @@ export default function StairTreadsPage() {
           <p className="eyebrow">Ordering process</p>
           <h2 className="text-3xl font-semibold tracking-tight text-stone-950">A straightforward path from quote to fabrication.</h2>
           <p className="text-base leading-7 text-stone-600">
-            The process should stay simple enough for trade buyers to reuse without friction.
+            The process is built to stay simple enough for repeat trade orders, not force you to solve the same problem from scratch every time.
           </p>
         </div>
         <ol className="grid gap-4">
@@ -111,11 +110,11 @@ export default function StairTreadsPage() {
             <p className="eyebrow text-stone-300">Next step</p>
             <h2 className="text-3xl font-semibold tracking-tight">Need pricing for a stair tread job?</h2>
             <p className="max-w-2xl text-base leading-7 text-stone-300">
-              Send the project details and we can tell you what is needed to move the quote forward.
+              Send the project details and flooring information, and we&apos;ll tell you what is needed to quote it properly.
             </p>
           </div>
           <Link href="/request-a-quote" className="inline-flex items-center justify-center rounded-full bg-white px-5 py-3 text-sm font-semibold text-stone-950 transition hover:bg-stone-200">
-            Request a Quote
+            Request Pricing
           </Link>
         </div>
       </section>
