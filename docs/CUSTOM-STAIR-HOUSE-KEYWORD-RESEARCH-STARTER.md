@@ -93,6 +93,18 @@ These are the highest-priority keywords.
 - exact match vent covers
 - matching flooring accessories
 - wood flooring accessories
+- flooring trim
+- wood flooring trim
+- hardwood floor trim
+- laminate flooring trim
+- floor transition strips
+- wood floor transition strips
+- hardwood floor transition strips
+- laminate transition strips
+- floor moulding
+- wood floor moulding
+- hardwood floor moulding
+- custom wood moulding
 
 ---
 
@@ -109,6 +121,12 @@ These capture buyers who know the pain but may not know the best solution wordin
 - how to match stair nosing to floor
 - matching transitions for wood floors
 - custom accessories from existing flooring
+- trim to match hardwood floor
+- transition strip to match wood floor
+- moulding to match laminate flooring
+- matching floor trim for hardwood
+- custom transition pieces for flooring
+- exact match floor moulding
 
 ---
 
@@ -170,6 +188,18 @@ These help expand supporting page copy and FAQ language.
 - wood stair nosing custom
 - custom stair nose molding
 - matching stair nosing for hardwood floor
+
+### Transitions / Trim / Moulding
+- hardwood floor transition strips
+- wood flooring transition pieces
+- laminate floor transition strips
+- hardwood trim to match flooring
+- wood floor trim pieces
+- hardwood floor moulding
+- custom floor moulding
+- transition molding for hardwood floors
+- wood reducer strips
+- hardwood T-molding
 
 ### Vent Covers
 - flush mount wood vent covers
@@ -420,6 +450,30 @@ Then next:
 
 ---
 
+## Recommendation on Trim / Transition / Moulding Terms
+Yes — these terms should be added to the strategy, but with the right role.
+
+### Best use:
+- secondary keywords
+- body copy support
+- FAQ language
+- image alt text
+- future supporting pages
+
+### Why:
+- **transition** terms are especially strong because they often signal a real product need and active buying intent
+- **trim** terms are broader and can help widen discoverability, especially when paired with words like `hardwood`, `wood flooring`, `laminate`, or `matching`
+- **moulding/molding** terms are useful because many buyers use them interchangeably with nosing, transitions, and trim
+
+### Important caution:
+Do **not** let generic words like `trim` or `moulding` replace the stronger core page focus on:
+- stair treads
+- stair nosings
+- vent covers
+- exact-match accessories
+
+Use these added terms to widen semantic coverage, not to dilute the main positioning.
+
 ## Bottom Line
 The winning SEO strategy for Custom Stair House is:
 - narrow
@@ -427,6 +481,7 @@ The winning SEO strategy for Custom Stair House is:
 - exact-match focused
 - trade-aware
 - local
+- semantically broad enough to capture trim / transition / moulding searches without becoming generic
 
 Do not try to win the whole flooring internet.
 Win the exact category this business is built for.
