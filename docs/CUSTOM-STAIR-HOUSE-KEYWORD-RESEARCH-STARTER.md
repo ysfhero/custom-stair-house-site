@@ -73,11 +73,17 @@ Why:
 
 ---
 
-## Core Keyword Buckets
+## Core Keyword Structure
 
-## 1. Core Commercial Keywords
-These are the highest-priority keywords.
+The cleanest way to use keywords for this business is to separate them by intent level.
+That keeps the site focused on buyer-ready searches without missing useful broader terms.
 
+---
+
+## 1. High-Intent Keywords (Primary Targets)
+These are the strongest commercial keywords and should drive page focus, titles, H1s, key body copy, and internal anchors.
+
+### Product / Money Keywords
 - custom stair treads
 - custom wood stair treads
 - stair nosings
@@ -87,52 +93,22 @@ These are the highest-priority keywords.
 - wood vent covers
 - custom vent covers
 - custom wood vent covers
+
+### Differentiation Keywords
 - exact match stair nosings
 - matching stair nosings
 - matching stair treads
 - exact match vent covers
 - matching flooring accessories
 - wood flooring accessories
-- flooring trim
-- wood flooring trim
-- hardwood floor trim
-- laminate flooring trim
-- floor transition strips
-- wood floor transition strips
-- hardwood floor transition strips
-- laminate transition strips
-- floor moulding
-- wood floor moulding
-- hardwood floor moulding
-- custom wood moulding
-
----
-
-## 2. Problem-Aware Keywords
-These capture buyers who know the pain but may not know the best solution wording.
-
 - stair nosing to match hardwood floor
 - stair tread to match hardwood floor
 - vent covers to match hardwood floor
 - custom vent covers for hardwood floors
-- matching stair parts for engineered hardwood
-- matching wood floor accessories
-- hardwood floor accessories that match
-- how to match stair nosing to floor
 - matching transitions for wood floors
 - custom accessories from existing flooring
-- trim to match hardwood floor
-- transition strip to match wood floor
-- moulding to match laminate flooring
-- matching floor trim for hardwood
-- custom transition pieces for flooring
-- exact match floor moulding
 
----
-
-## 3. Trade / Dealer Keywords
-These matter because flooring stores are a strong target segment.
-
+### Trade / Buyer Keywords
 - flooring store stair nosing supplier
 - stair tread supplier for flooring stores
 - flooring accessory supplier for dealers
@@ -142,27 +118,85 @@ These matter because flooring stores are a strong target segment.
 - trade stair nosing supplier
 - repeat stair accessory supplier
 
-These may be lower-volume, but they are strategically strong because the buyer quality is high.
-
----
-
-## 4. Local Service Keywords
-These help match service-area demand.
-
+### Local High-Intent Keywords
 - custom stair treads northern virginia
 - stair nosings northern virginia
 - custom stair nosings northern virginia
 - wood vent covers northern virginia
 - custom vent covers northern virginia
-- custom stair treads virginia
-- stair nosings virginia
-- hardwood vent covers virginia
 - custom stair treads washington dc
 - stair nosings washington dc
 - exact match stair nosings northern virginia
 - wood flooring accessories northern virginia
 
-Also test city-level modifiers later if relevant:
+---
+
+## 2. Secondary Semantic Keywords (Use Actively, But Not as Main Positioning)
+These are worth using in body copy, FAQs, alt text, supporting paragraphs, and future support pages.
+They broaden search relevance without replacing the core positioning.
+
+### Matching / Problem-Aware Support
+- matching stair parts for engineered hardwood
+- matching wood floor accessories
+- hardwood floor accessories that match
+- how to match stair nosing to floor
+- trim to match hardwood floor
+- transition strip to match wood floor
+- moulding to match laminate flooring
+- matching floor trim for hardwood
+- custom transition pieces for flooring
+- exact match floor moulding
+
+### Transition Terms
+- floor transition strips
+- wood floor transition strips
+- hardwood floor transition strips
+- laminate transition strips
+- wood flooring transition pieces
+- transition molding for hardwood floors
+- wood reducer strips
+- hardwood T-molding
+
+### Trim / Moulding Terms
+- flooring trim
+- wood flooring trim
+- hardwood floor trim
+- laminate flooring trim
+- floor moulding
+- wood floor moulding
+- hardwood floor moulding
+- custom wood moulding
+- custom floor moulding
+
+---
+
+## 3. Low-Priority Broad Terms (Use Lightly)
+These can be helpful for semantic breadth, but they are too broad or too ambiguous to build the site around.
+Use them sparingly in supporting copy only.
+
+- trim
+- transition
+- moulding
+- molding
+- flooring transitions
+- floor trim pieces
+- wood trim pieces
+- transition pieces
+- hardwood moldings
+
+These terms are useful because real buyers use them, but they are not strong enough on their own to define the page strategy.
+
+---
+
+## 4. Local Modifier Set
+These should be combined carefully with the strongest commercial terms.
+
+Primary local modifiers:
+- northern virginia
+- virginia
+- washington dc
+
+Possible city-level tests later:
 - Sterling
 - Fairfax
 - Alexandria
@@ -348,31 +382,38 @@ Use this page to capture long-tail and objection-driven phrases such as:
 ## Keyword Priority Ranking
 If we are being strict, the best priority order is:
 
-### Tier 1 — Money Keywords
+### Tier 1 — High-Intent / Money Keywords
 1. custom stair treads
 2. stair nosings
 3. custom stair nosings
 4. flush mount vent covers
 5. wood vent covers
 
-### Tier 2 — Differentiation Keywords
+### Tier 2 — High-Intent Differentiation Keywords
 6. matching stair nosings
 7. stair nosing to match hardwood floor
 8. vent covers to match hardwood floor
 9. matching wood flooring accessories
-10. exact match stair treads
+10. custom accessories from existing flooring
 
-### Tier 3 — Trade / B2B Keywords
-11. stair tread supplier for flooring stores
-12. stair accessory supplier for flooring stores
-13. flooring store custom accessories
-14. dealer stair accessories
+### Tier 3 — Strong Secondary Semantic Keywords
+11. hardwood floor transition strips
+12. wood flooring trim
+13. hardwood floor moulding
+14. transition strip to match wood floor
+15. matching floor trim for hardwood
 
-### Tier 4 — Local Combinations
-15. custom stair treads northern virginia
-16. stair nosings northern virginia
-17. custom vent covers northern virginia
-18. wood flooring accessories northern virginia
+### Tier 4 — Trade / B2B Keywords
+16. stair tread supplier for flooring stores
+17. stair accessory supplier for flooring stores
+18. flooring store custom accessories
+19. dealer stair accessories
+
+### Tier 5 — Local Combinations
+20. custom stair treads northern virginia
+21. stair nosings northern virginia
+22. custom vent covers northern virginia
+23. wood flooring accessories northern virginia
 
 ---
 
